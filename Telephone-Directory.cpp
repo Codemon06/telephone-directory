@@ -177,9 +177,9 @@ void deldata()
 		}
 	}
 	if(l==0)
-	cout<<"Record Not Found.";
+		cout<<"Record Not Found.";
 	else if(l!=0)
-	cout<<"Record has been Deleted.";
+		cout<<"Record has been Deleted.";
 	fin.close();
 	fout.close();
 	remove("data.dat");
